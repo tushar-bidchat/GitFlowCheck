@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if (input.getText().toString().equals("Tushar")) {
-                    Toast.makeText(MainActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login Success for " + input.getText().toString() , Toast.LENGTH_SHORT).show();
                 }
                 else {
                     Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
